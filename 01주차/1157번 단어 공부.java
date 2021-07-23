@@ -6,7 +6,7 @@ public class 단어_공부_1157번 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String word = sc.nextLine();
-		word = word.toUpperCase();
+		word = word.toUpperCase(); //toLowerCase();
 		int[] count = new int[26];
 		
 		for(int i=0;i<word.length();i++) {
